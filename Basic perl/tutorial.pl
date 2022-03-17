@@ -156,7 +156,7 @@ close(INPUT);
 #replace3();
 
 ## escape seq
-escape();
+
 sub escape{
 	# \d digit match
 	# \s space match
@@ -174,5 +174,20 @@ sub escape{
 
 
 }
+##  escape();
+
+##### numeric quantifiers
+
+sub numericQ{
+my $text = 'DE$531546';
+
+if($text =~ /(DE\$\d{3,})/){ # at least 3 , no more than 5 , 5 could be omitted
+							# if a charater is special %#@$^ use \
+		print "Matched $1 \n";
+	};
+
+
+}
+#numericQ();
 
 
