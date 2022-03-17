@@ -1,5 +1,5 @@
 # TEST REPO
 
-Exemplele lucrate in perl sunt in fisierul tutorial.pl
+Exemple lucrate in perl
 
-Test de branch si merge branch
+//Test de branch si merge branch
