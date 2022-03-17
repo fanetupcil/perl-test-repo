@@ -166,7 +166,7 @@ sub escape{
 	my $text = 'I am   117 years old tomorrow 1178';
 
 	if($text =~ /(\s*\d+)/){ # + e greedy , 1 sau mai multe de 1
-							# \s merge si la space
+							# \s merge si la space :)
 		print "Matched $1 \n";
 	}else {
 		print "fail";
@@ -174,3 +174,4 @@ sub escape{
 
 
 }
+# git test
