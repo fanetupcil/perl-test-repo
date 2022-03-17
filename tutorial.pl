@@ -175,3 +175,8 @@ sub escape{
 
 }
 # git test
+
+sub test {
+	open(INPUT, 'file.txt');
+	close(INPUT);
+}
